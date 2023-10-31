@@ -1,0 +1,22 @@
+{
+  "name": "capacitor-splash-screen-bug",
+  "version": "1.0.0",
+  "description": "Capacitor splash screen bug",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "5.3.0",
+    "@capacitor/core": "5.3.0",
+    "@capacitor/splash-screen": "5.0.6"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.3.0",
+    "vite": "^2.9.13"
+  },
+  "author": "Jakub Martyčák<jmartycak@rbi.com>",
+  "license": "ISC"
+}
