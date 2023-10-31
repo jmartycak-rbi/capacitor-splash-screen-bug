@@ -1,7 +1,12 @@
-## Created with Capacitor Create App
+## Capacitor splash screen bug
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
+Code reproduction for https://github.com/ionic-team/capacitor-plugins/issues/1856
+
+### STR
+1. Run the android app on a device
+2. Background the app when the splash screen is still visible
+3. Wait for the `SplashScreen.hide()` call
+4. Observe the error
 
 ### Running this example
 
